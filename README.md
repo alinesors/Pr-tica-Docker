@@ -1,5 +1,7 @@
 # Projeto de Deploy com Minikube e Docker Hub
 
+<img src="https://i.pinimg.com/originals/aa/48/46/aa4846d84035bb97903a10edfe0f22e9.gif">
+    
 Este projeto consiste em uma aplicação simples em Node.js que é empacotada em uma imagem Docker, implantada em um cluster Minikube e exposta via um serviço do tipo NodePort, permitindo o acesso externo à aplicação.
 
 ## 🚀 Começando
