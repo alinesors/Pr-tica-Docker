@@ -2,11 +2,13 @@
 
 Este projeto consiste em uma aplicação simples em Node.js que é empacotada em uma imagem Docker, implantada em um cluster Minikube e exposta via um serviço do tipo NodePort, permitindo o acesso externo à aplicação.
 
-<img src=https://i.pinimg.com/originals/aa/48/46/aa4846d84035bb97903a10edfe0f22e9.gif>
-
 ## 🚀 Começando
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Docker](https://img.shields.io/badge/docker-257bd6?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=Kubernetes&logoColor=white)
 
 ### 📋 Pré-requisitos
 
