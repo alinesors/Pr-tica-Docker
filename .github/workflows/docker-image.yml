@@ -1,0 +1,29 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: main
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Login to docker Hub
+    
+      uses: docker/login-action@v2
+      with:
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+    
+    - name: Build the Docker image
+      run: docker build -t aliesors/app:latest .
+
+    - name: Push Docker image
+      run: docker push alinesors/app:latest
+
+      
